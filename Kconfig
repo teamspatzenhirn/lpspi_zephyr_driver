@@ -1,0 +1,1 @@
+rsource "drivers/spi/Kconfig.mcux_lpspi"
