@@ -708,8 +708,6 @@ static int spi_mcux_init(const struct device *dev)
 
 	spi_context_unlock_unconditionally(&data->ctx);
 
-	printk("TÖRÖ!!\n");
-
 	return 0;
 }
 
