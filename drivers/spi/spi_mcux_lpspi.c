@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <zephyr/drivers/spi.h>
 #include <zephyr/drivers/clock_control.h>
-#include <fsl_lpspi.h>
+#include "fsl_lpspi.h"
 #if CONFIG_NXP_LP_FLEXCOMM
 #include <zephyr/drivers/mfd/nxp_lp_flexcomm.h>
 #endif
